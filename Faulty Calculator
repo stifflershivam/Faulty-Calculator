@@ -1,0 +1,24 @@
+print("Enter First Number")
+num1=int(input())
+print("Enter Second Number")
+num2=int(input())
+print('Enter the operation'+ '+,-,*,/')
+num3=input()
+if num1==56 and num2==9 and num3== '+':
+        print("77")
+elif num1 == 45 and num2 == 4 and num3 == '*':
+        print("565")
+elif num1 == 56 and num2 == 6 and num3 == '/':
+        print("4")
+elif num3=='+':
+    sum=num1+num2
+    print(sum)
+elif num3=='-':
+    difference=num2-num1
+    print(difference)
+elif num3 == '*':
+    multiplication = num2 * num1
+    print(multiplication)
+elif num3 == '/':
+    divide = num1 / num2
+    print(divide)
